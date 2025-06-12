@@ -1,0 +1,74 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SweetBee Honey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SweetBee Honey</h1>
+        <nav>
+            <ul>
+                <li><a href="#order">Order Honey</a></li>
+                <li><a href="#sell">Sell Honey</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Pure Natural Honey Delivered to Your Doorstep</h2>
+        <p>Buy or sell high-quality, organic honey with us.</p>
+    </section>
+ 
+    <section id="order" class="form-section">
+        <h2>Order Honey</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="quantity">Quantity (in Litres):</label>
+            <input type="number" id="quantity" min="1" required>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" required></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <section id="sell" class="form-section">
+        <h2>Sell Your Honey</h2>
+        <form>
+            <label for="seller-name">Full Name:</label>
+            <input type="text" id="seller-name" required>
+
+            <label for="seller-email">Email:</label>
+            <input type="email" id="seller-email" required>
+
+            <label for="amount">Amount Available (in Litres):</label>
+            <input type="number" id="amount" min="1" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" required>
+
+            <button type="submit">Submit to Sell</button>
+        </form>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: sweetbeehoney@gmail.com</p>
+        <p>Phone: +254768006938      </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SweetBee Honey. All rights reserved.</p>
+    </footer>
+</body>
+</html
